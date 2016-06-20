@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute">
+
+    <item
+        android:id="@+id/menu_zoom_toggle"
+        android:title="@string/menu_zoom_disable" />
+    <item
+        android:id="@+id/menu_scale_fit_center"
+        android:title="@string/menu_scale_fit_center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_fit_start"
+        android:title="@string/menu_scale_fit_start"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_fit_end"
+        android:title="@string/menu_scale_fit_end"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_fit_xy"
+        android:title="@string/menu_scale_fit_xy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_scale_center"
+        android:title="@string/menu_scale_center"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_scale_center_crop"
+        android:title="@string/menu_scale_center_crop"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_scale_center_inside"
+        android:title="@string/menu_scale_center_inside"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_random_animate"
+        android:title="@string/menu_zoom_random_animate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_scale_random"
+        android:title="@string/menu_zoom_random"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_matrix_restore"
+        android:title="@string/menu_matrix_restore" />
+    <item
+        android:id="@+id/menu_matrix_capture"
+        android:title="@string/menu_matrix_capture" />
+    <item
+        android:id="@+id/extract_visible_bitmap"
+        android:title="@string/extract_visible_bitmap" />
+
+</menu>
